@@ -1,0 +1,61 @@
+# Main Text
+author: 'airtnt.me'
+name: 'airtnt.me'
+aka: 'airtnt.me'
+title: 'airtnt.me - mass tourism for territories'
+subtitle: 'mass tourism for territories'
+payoff: 'we are all tourists in worlds'
+description: 'there is no destination management but exploitation management'
+locale: en_EN
+
+# Url
+baseurl: "" # the subpath of your site, e.g. /blog
+url: https://airtnt
+
+# Contact
+twitter:
+github:  airtnt
+facebook:
+email: airtntnme@gmail.com
+github_username: airtnt
+facebook_username:
+twitter_username:
+
+# SEO
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: "/assets/img/seo/airtnt.me-opg-facebook.png"
+
+# Favicon
+touch_icon: "https://airtnt.me/assets.me/img/logos/apple-touch-icon-144-precomposed.png"
+favicon: "https://airtnt.me/assets/img/logos/favicon.ico"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+#
+
+sass:
+  sass_dir: _sass
+  style: compression
+
+collections:
+  activities:
+    output: true
+  services:
+    output: true
+
+
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
