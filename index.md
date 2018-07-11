@@ -10,11 +10,11 @@ layout: home
 <section class="intro">
   <h1>mass tourists</h1>
   <a class="btn" href="#veroveneziano">tourism for the masses</a>
-  <a class="logo-section-home" href="#"><img src="/assets/img/logo/masstourists_logo_bianca_scritta.svg" alt="logo airtnt.me"></a>
+  <a class="logo-section-home" href="#"><img src="/assets/img/logo/masstourists_logo_bianca.svg" alt="logo mass tourists"></a>
 </section>
 
 <section class="home" id="veroveneziano">
   <h1>#veroVeneziano</h1>
   <a class="btn" href="#">only cash</a>
-  <a class="logo-section-home" href="#"><img src="/assets/img/logo/veroVeneziano_logo_oro_senza_scritta.svg" alt="logo airtnt.me"></a>
+  <a class="logo-section-home" href="#"><img src="/assets/img/logo/veroVeneziano_logo_oro.svg" alt="logo veroveneziano"></a>
 </section>
