@@ -1,23 +1,23 @@
 # Main Text
-author: 'airtnt.me'
-name: 'airtnt.me'
-aka: 'airtnt.me'
-title: 'airtnt.me - mass tourism for territories'
-subtitle: 'mass tourism for territories'
-payoff: 'we are all tourists in worlds'
-description: 'there is no destination management but exploitation management'
+author: 'Mass Tourists'
+name: 'Mass Tourists'
+aka: 'Mass Tourists'
+title: 'Mass Tourists - Tourism for the masses'
+subtitle: 'Tourism for the masses'
+payoff: 'Tourism for the masses'
+description: 'we move them pay'
 locale: en_EN
 
 # Url
 baseurl: "" # the subpath of your site, e.g. /blog
-url: https://airtnt
+url: https://masstourists.com
 
 # Contact
 twitter:
-github:  airtnt
+github:  masstourists
 facebook:
-email: airtntnme@gmail.com
-github_username: airtnt
+email: turism4masses@gmail.com
+github_username: masstourists
 facebook_username:
 twitter_username:
 
@@ -29,8 +29,8 @@ defaults:
       image: "/assets/img/seo/airtnt.me-opg-facebook.png"
 
 # Favicon
-touch_icon: "https://airtnt.me/assets.me/img/logos/apple-touch-icon-144-precomposed.png"
-favicon: "https://airtnt.me/assets/img/logos/favicon.ico"
+touch_icon: "https://masstourists.com/assets.me/img/logos/apple-touch-icon-144-precomposed.png"
+favicon: "https://masstourists.com/assets/img/logos/favicon.ico"
 
 # Build settings
 markdown: kramdown
