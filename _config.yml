@@ -26,11 +26,11 @@ defaults:
   - scope:
       path: ""
     values:
-      image: "/assets/img/seo/airtnt.me-opg-facebook.png"
+      image: "/assets/img/seo/masstourists-opg-facebook.png"
 
 # Favicon
-touch_icon: "https://masstourists.com/assets.me/img/logos/apple-touch-icon-144-precomposed.png"
-favicon: "https://masstourists.com/assets/img/logos/favicon.ico"
+touch_icon: "https://masstourists.com/assets/img/logo/apple-touch-icon-144-precomposed.png"
+favicon: "https://masstourists.com/assets/img/logo/favicon.ico"
 
 # Build settings
 markdown: kramdown
