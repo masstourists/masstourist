@@ -23,9 +23,12 @@ body, html {
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
-h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
+h1, h2, h3, h4, h5, h6, .highlight {
   margin-bottom: 15px;
   font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif; }
+
+p, blockquote, pre, ul, ol, dl, figure, .highlight {
+  margin-bottom: 15px; }
 
 /**
  * `main` element
@@ -178,8 +181,6 @@ table td {
  * Site header
  */
 .site-header {
-  border-top: 5px solid #424242;
-  border-bottom: 1px solid #e8e8e8;
   min-height: 55.95px;
   position: relative; }
 
@@ -192,6 +193,9 @@ table td {
   float: left; }
 .site-title, .site-title:visited {
   color: #424242; }
+.site-title img {
+  max-width: 48px;
+  margin-top: auto; }
 
 .site-nav {
   float: right;

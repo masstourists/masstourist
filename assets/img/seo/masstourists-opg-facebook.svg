@@ -18,7 +18,7 @@
    height="628"
    viewBox="0 0 1280 628"
    sodipodi:docname="masstourists-opg-facebook.svg"
-   inkscape:export-filename="/Users/lucacorsato/Documents/osd/website/masstourists.com/assets/favicon/favicon-196x196.png"
+   inkscape:export-filename="/Users/lucacorsato/Documents/osd/website/masstourists.com/assets/img/seo/masstourists-opg-facebook.png"
    inkscape:export-xdpi="320"
    inkscape:export-ydpi="320">
   <metadata
@@ -29,7 +29,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -258,7 +258,7 @@
      id="namedview4138"
      showgrid="false"
      inkscape:zoom="0.70710678"
-     inkscape:cx="608.62759"
+     inkscape:cx="311.64274"
      inkscape:cy="358.83628"
      inkscape:window-x="0"
      inkscape:window-y="0"
@@ -309,5 +309,5 @@
        sodipodi:role="line"
        x="640.37109"
        y="599.64844"
-       id="tspan4278">- we move them pay -</tspan></text>
+       id="tspan4278">- load on every destinations -</tspan></text>
 </svg>
