@@ -9,7 +9,7 @@ layout: home
 ---
 <section class="intro">
   <h1>mass tourists</h1>
-  <a class="btn" href="/about">tourism for the masses</a>
+  <a class="btn" href="/about">content for the masses</a>
   <a class="logo-section-home" href="#"><img src="/assets/img/logo/masstourists_logo_bianca.svg" alt="logo mass tourists"></a>
 </section>
 
