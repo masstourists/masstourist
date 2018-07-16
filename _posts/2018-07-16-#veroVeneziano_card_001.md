@@ -1,10 +1,6 @@
 ---
 layout: post
 title: '#veroVeneziano - only cash'
-img_card:
+image: veroVeneziano_card_001.png
+description: '**#veroVeneziano** *- only cash -*'
 ---
-
-![card image](/assets/img/card/veroVeneziano_card_002.png)
-**#veroVeneziano**
-
-*- only cash -*
