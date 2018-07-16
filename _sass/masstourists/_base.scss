@@ -24,6 +24,8 @@ body, html {
           font-feature-settings: "kern" 1;
   font-kerning: normal;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 

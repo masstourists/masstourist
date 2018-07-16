@@ -1,12 +1,5 @@
-html, body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  width: 100%;
-}
-
 .intro {
-  height: 100%;
+  height: 100vh;
   width: 100%;
   margin: auto;
   background-color: #8f5545;
@@ -53,7 +46,7 @@ html, body {
 
 
 .home {
-  height: 100%;
+  height: 100vh;
   width: 100%;
   margin: auto;
   background-color: #7B1B02;

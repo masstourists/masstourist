@@ -15,6 +15,6 @@ layout: home
 
 <section class="home" id="veroveneziano">
   <h1>#veroVeneziano</h1>
-  <a class="btn" href="#">only cash</a>
+  <a class="btn" href="/veroveneziano">only cash</a>
   <a class="logo-section-home" href="/"><img src="/assets/img/logo/veroVeneziano_logo_oro.svg" alt="logo veroveneziano"></a>
 </section>
