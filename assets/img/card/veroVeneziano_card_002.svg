@@ -18,7 +18,7 @@
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="veroVeneziano_card_002.svg"
-   inkscape:export-filename="/Users/lucacorsato/Documents/osd/website/masstourists.com/assets/card/#veroVeneziano_card_002.png"
+   inkscape:export-filename="/Users/lucacorsato/Documents/osd/website/masstourists.com/assets/img/card/veroVeneziano_card_002.png"
    inkscape:export-xdpi="320"
    inkscape:export-ydpi="320">
   <defs
@@ -863,9 +863,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.4012831"
-     inkscape:cx="593.4743"
-     inkscape:cy="1.6356906"
+     inkscape:zoom="0.5675"
+     inkscape:cx="530.80736"
+     inkscape:cy="146.88046"
      inkscape:document-units="px"
      inkscape:current-layer="layer3"
      showgrid="false"
@@ -963,8 +963,8 @@
        d="M 9e-5,831.55052 1199.9999,831.37384"
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.82332218px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 34,455.86215 1132,0"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.72803527px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 300,456.09713 600,0"
        id="path6093"
        inkscape:connector-curvature="0" />
     <text
@@ -977,17 +977,16 @@
          sodipodi:role="line"
          id="tspan6097"
          x="571.12061"
-         y="452.24203">1132px</tspan></text>
+         y="452.24203">600px</tspan></text>
     <path
-       transform="translate(0,424.36214)"
        style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.57551527px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 88.99999,566.50005 13,0"
+       d="m 285,1018.0744 13,0"
        id="path6730"
        inkscape:connector-curvature="0" />
     <path
        inkscape:connector-curvature="0"
        id="path6733"
-       d="m 1093.6668,990.86183 13,0"
+       d="m 902,1018.0744 13,0"
        style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.57551527px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
   </g>
   <g
@@ -1076,7 +1075,8 @@
     </g>
     <g
        id="g6778"
-       style="fill:#dabdab;fill-opacity:1">
+       style="fill:#dabdab;fill-opacity:1"
+       transform="matrix(0.61818178,0,0,0.61818178,276.98183,226.80001)">
       <g
          id="g4541"
          transform="matrix(1.1716092,0,0,1.1716092,-27.789401,-94.840604)"
@@ -1215,7 +1215,8 @@
     </g>
     <g
        id="g6735"
-       style="fill:#dabdab;fill-opacity:1">
+       style="fill:#dabdab;fill-opacity:1"
+       transform="matrix(0.61818182,0,0,0.61818182,181.2,226.80021)">
       <path
          inkscape:connector-curvature="0"
          id="path4525-9"
@@ -1426,18 +1427,18 @@
      transform="translate(0,2)">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:80.1348877px;line-height:125%;font-family:'Transport Heavy';-inkscape-font-specification:'Transport Heavy, ';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:0.94117647;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
-       x="29.677507"
-       y="204.03247"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.47431946px;line-height:125%;font-family:'Transport Heavy';-inkscape-font-specification:'Transport Heavy, ';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:0.94117647;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="297.70892"
+       y="211.44267"
        id="text6099"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan6101"
-         x="29.677507"
-         y="204.03247">Il turista non è il tuo nemico</tspan><tspan
+         x="297.70892"
+         y="211.44267">Il turista non è il tuo nemico</tspan><tspan
          sodipodi:role="line"
-         x="29.677507"
-         y="304.20108"
+         x="297.70892"
+         y="264.53558"
          id="tspan6103">è il tuo datore di lavoro</tspan></text>
   </g>
 </svg>
