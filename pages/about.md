@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+image: /assets/img/seo/masstourists-opg-facebook.png
 ---
 
 Mass Tourists is a the most important holding in mass tourism industry. Mass Tourists is based in Dubai and operates in all world market without Italy. In middle 2018 Mass Tourists invests in the Italian market starting to Venice. For the venitian campaign, Mass Tourists made the brand “#veroVeneziano - only cash” applies to apparel, gadget and tools.

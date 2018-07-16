@@ -6,6 +6,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 layout: home
+image: /assets/img/seo/masstourists-opg-facebook.png
 ---
 <section class="intro">
   <h1>mass tourists</h1>

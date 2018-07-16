@@ -2,6 +2,7 @@
 layout: page
 title: '#veroVeneziano'
 permalink: /veroveneziano/
+image: /assets/img/seo/masstourists-opg-facebook.png
 ---
 
 {%- if site.posts.size > 0 -%}
