@@ -3,7 +3,7 @@
 // Define defaults for each variable.
 
 $base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
-$title-font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif !default;
+$title-font-family: "transport heavy" !default;
 
 $base-font-size:   16px !default;
 $base-font-weight: 400 !default;
@@ -53,3 +53,8 @@ $on-laptop:        800px !default;
   "masstourists/home",
   "masstourists/footer"
 ;
+
+@font-face { font-family: "transport heavy";
+             src: url("/assets/fonts/transporth.ttf") format("opentype");
+             font-weight: normal;
+             font-style: normal; }

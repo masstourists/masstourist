@@ -27,7 +27,7 @@ body, html {
  */
 h1, h2, h3, h4, h5, h6, .highlight {
   margin-bottom: 15px;
-  font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif; }
+  font-family: "transport heavy"; }
 
 p, blockquote, pre, ul, ol, dl, figure, .highlight {
   margin-bottom: 15px; }
@@ -588,3 +588,8 @@ table td {
     padding: 3em;
     max-width: 62px;
     height: auto; } }
+@font-face {
+  font-family: "transport heavy";
+  src: url("/assets/fonts/transporth.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
