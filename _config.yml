@@ -22,6 +22,9 @@ facebook_username:
 twitter_username:
 
 # SEO
+twitter:
+  username: masstourists
+  card: summary_large_image
 
 
 # Favicon
