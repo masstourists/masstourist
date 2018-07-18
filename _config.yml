@@ -26,6 +26,11 @@ twitter:
   username: masstourists
   card: summary_large_image
 
+facebook:
+  app_id: 257678751707830
+  publisher: 1647204168722946
+  admins: 100027504092751
+
 
 # Favicon
 touch_icon: "https://masstourists.com/assets/img/logo/apple-touch-icon-144-precomposed.png"
