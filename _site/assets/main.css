@@ -500,48 +500,21 @@ table td {
 .highlight .il {
   color: #099; }
 
-.intro {
+.home {
   height: 100vh;
   width: 100%;
   margin: auto;
   background-color: #8f5545;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   top: 0; }
+.home img {
+  max-width: 7rem;
+  padding: 2rem; }
 
-.intro h1 {
-  font-size: 8em;
-  color: #fff; }
-
-.intro a {
-  text-decoration: none;
-  color: #e8e8e8; }
-
-.intro .btn {
-  border-radius: 9px;
-  color: #fff;
-  font-size: 2em;
-  padding: 10px 20px;
-  border: solid #fff 1px;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-style: italic; }
-.intro .btn:hover {
-  color: #424242;
-  border: solid #424242 1px; }
-
-.logo-section-home img {
-  padding: 3em;
-  max-width: 144px;
-  height: auto; }
-
-.home {
-  height: 100vh;
-  width: 100%;
-  margin: auto;
-  background-color: #7B1B02;
+.home-top {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -550,18 +523,19 @@ table td {
 
 .home h1 {
   font-size: 5em;
-  color: #FFD700; }
+  color: #fff;
+  margin: 0; }
 
 .home a {
   text-decoration: none; }
 
 .home .btn {
   border-radius: 9px;
-  color: #FFD700;
+  color: #fff;
   font-size: 1em;
   font-weight: 100;
-  padding: 10px 20px;
-  border: solid #FFD700 1px;
+  padding: .3rem .5rem;
+  border: solid #fff 1px;
   text-decoration: none;
   text-transform: uppercase;
   font-style: italic; }
@@ -569,25 +543,51 @@ table td {
   color: #e8e8e8;
   border: solid #e8e8e8 1px; }
 
+.home-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 0; }
+.home-bottom p {
+  font-size: 0.7rem;
+  color: #fff;
+  font-style: italic; }
+.home-bottom h5 {
+  margin-bottom: 0; }
+.home-bottom a {
+  color: #fff; }
+.home-bottom img {
+  max-width: 3rem;
+  padding: 0.5rem; }
+
 @media screen and (max-width: 600px) {
   .home h1 {
-    font-size: 2em;
-    color: #FFD700; }
+    font-size: 2.5em;
+    padding: 1rem; }
 
-  .intro h1 {
-    font-size: 3em;
-    color: #fff; }
-
-  .intro .btn {
-    font-size: 1em; }
+  .home img {
+    padding: 2rem;
+    max-width: 4rem;
+    height: auto; }
 
   .home .btn {
     font-size: 1em; }
 
-  .logo-section-home img {
-    padding: 3em;
-    max-width: 62px;
-    height: auto; } }
+  .home-bottom p {
+    font-size: 0.7rem;
+    color: #fff;
+    font-style: italic; }
+  .home-bottom h5 {
+    margin-bottom: 0; }
+  .home-bottom a {
+    color: #fff; }
+  .home-bottom img {
+    max-width: 2rem;
+    padding: 0.2rem; } }
+.veroveneziano {
+  background-color: #8f5545; }
+
 @font-face {
   font-family: "transport heavy";
   src: url("/assets/fonts/transporth.ttf") format("opentype");

@@ -13,13 +13,13 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: https://masstourists.com
 
 # Contact
-twitter:
-github:  masstourists
-facebook:
+twitter: masstourists
+github:
+facebook: masstourists
 email: turism4masses@gmail.com
-github_username: masstourists
-facebook_username:
-twitter_username:
+github_username:
+facebook_username: masstourists
+twitter_username: masstourists
 
 # SEO
 twitter:
