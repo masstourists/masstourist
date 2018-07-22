@@ -19,8 +19,8 @@
    inkscape:version="0.91 r13725"
    sodipodi:docname="veroVeneziano_card_001.svg"
    inkscape:export-filename="/Users/lucacorsato/Documents/osd/website/masstourists.com/assets/img/card/veroVeneziano_card_001.png"
-   inkscape:export-xdpi="320"
-   inkscape:export-ydpi="320">
+   inkscape:export-xdpi="240"
+   inkscape:export-ydpi="240">
   <defs
      id="defs4138">
     <inkscape:perspective
@@ -864,7 +864,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.5675"
-     inkscape:cx="435.45373"
+     inkscape:cx="65.409677"
      inkscape:cy="197.331"
      inkscape:document-units="px"
      inkscape:current-layer="layer3"
@@ -898,7 +898,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>

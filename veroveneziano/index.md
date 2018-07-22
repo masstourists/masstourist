@@ -1,6 +1,6 @@
 ---
 layout: page
-title: '#veroVeneziano'
+title: "#veroVeneziano"
 image: /assets/img/seo/masstourists-opg-facebook.png
 ---
 
