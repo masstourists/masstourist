@@ -504,62 +504,45 @@ table td {
   height: 100vh;
   width: 100%;
   margin: auto;
-  background-color: #8f5545;
+  background-color: #00408b;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   top: 0; }
-.home img {
-  max-width: 7rem;
-  padding: 2rem; }
 
 .home-top {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  top: 0; }
-
-.home h1 {
+  justify-content: space-around;
+  align-items: center; }
+.home-top h1 {
   font-size: 5em;
   color: #fff;
-  margin: 0; }
-
-.home a {
-  text-decoration: none; }
-
-.home .btn {
-  border-radius: 9px;
+  margin: 0;
+  text-align: center; }
+.home-top h2 {
   color: #fff;
-  font-size: 1em;
-  font-weight: 100;
-  padding: .3rem .5rem;
-  border: solid #fff 1px;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-style: italic; }
-.home .btn:hover {
-  color: #e8e8e8;
-  border: solid #e8e8e8 1px; }
+  text-align: center; }
+.home-top img {
+  max-width: 5rem; }
 
 .home-bottom {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  top: 0; }
+  justify-content: space-around;
+  align-items: center; }
 .home-bottom p {
   font-size: 0.7rem;
   color: #fff;
   font-style: italic; }
-.home-bottom h5 {
-  margin-bottom: 0; }
+.home-bottom h3 {
+  color: #fff;
+  text-align: center; }
 .home-bottom a {
-  color: #fff; }
+  text-align: center; }
 .home-bottom img {
-  max-width: 3rem;
-  padding: 0.5rem; }
+  max-width: 33%; }
 
 @media screen and (max-width: 600px) {
   .home h1 {
@@ -567,27 +550,28 @@ table td {
     padding: 1rem; }
 
   .home img {
-    padding: 2rem;
+    padding: 1rem;
     max-width: 4rem;
     height: auto; }
 
   .home .btn {
     font-size: 1em; }
 
+  .home-bottom {
+    position: relative;
+    margin-bottom: 0px; }
   .home-bottom p {
     font-size: 0.7rem;
     color: #fff;
     font-style: italic; }
-  .home-bottom h5 {
-    margin-bottom: 0; }
+  .home-bottom h3 {
+    margin-bottom: 0;
+    font-size: .7rem; }
   .home-bottom a {
     color: #fff; }
   .home-bottom img {
-    max-width: 2rem;
+    max-width: 75%;
     padding: 0.2rem; } }
-.veroveneziano {
-  background-color: #8f5545; }
-
 @font-face {
   font-family: "transport heavy";
   src: url("/assets/fonts/transporth.ttf") format("opentype");

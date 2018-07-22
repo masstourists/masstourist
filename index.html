@@ -5,29 +5,14 @@ image: /assets/img/seo/masstourists-opg-facebook.png
 
 <section class="home">
   <div class="home-top">
-    <h1>#veroVeneziano</h1>
-    <a class="btn" href="/#veroveneziano">only cash</a>
-    <img class="logo-section-home" src="/assets/img/logo/veroveneziano/veroVeneziano_logo_bianca.svg" alt="logo veroveneziano">
+    <h1>mass tourists</h1>
+    <h2>spread them all</h2>
+    <img class="logo-section-home" src="/assets/img/logo/masstourists_logo_bianca_scritta.svg" alt="logo masstourists">
   </div>
   <div class="home-bottom">
-    <p>brought to you with &#x2665;</p>
-    <h5><a href="/about">masstourists.com</a></h5>
-    <img src="/assets/img/logo/masstourists_logo_bianca.svg" alt="logo masstourists">
+    <h3>brought to you with &#x2665; the new brand for Venezia</h3>
+    <a href="/veroveneziano">
+      <img src="/assets/img/card/veroVeneziano_card.svg" alt="">
+    </a>
   </div>
-</section>
-<section class="veroveneziano" id="veroveneziano">
-  {%- if site.posts.size > 0 -%}
-    <ul class="post-list">
-      {%- for post in site.posts -%}
-      <li>
-        <a class="post-link" href="{{ post.url | relative_url }}">
-          <img src="{{ post.svg }}" alt="post thumbnail">
-        </a>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
-  {%- endif -%}
 </section>
