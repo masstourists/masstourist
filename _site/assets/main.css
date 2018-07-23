@@ -25,9 +25,12 @@ body, html {
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
-h1, h2, h3, h4, h5, h6, .highlight {
+h1, .highlight {
   margin-bottom: 15px;
   font-family: "transport heavy"; }
+
+h2, h3, h4, h5, h6 {
+  margin-bottom: 15px; }
 
 p, blockquote, pre, ul, ol, dl, figure, .highlight {
   margin-bottom: 15px; }
@@ -523,26 +526,47 @@ table td {
   text-align: center; }
 .home-top h2 {
   color: #fff;
-  text-align: center; }
+  text-align: center;
+  font-family: "transport heavy"; }
 .home-top img {
-  max-width: 5rem; }
+  max-width: 8rem; }
 
 .home-bottom {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items: center; }
+  align-items: center;
+  max-width: 75%; }
 .home-bottom p {
   font-size: 0.7rem;
   color: #fff;
   font-style: italic; }
-.home-bottom h3 {
+.home-bottom h5 {
   color: #fff;
-  text-align: center; }
+  text-align: center;
+  font-style: italic; }
 .home-bottom a {
-  text-align: center; }
-.home-bottom img {
-  max-width: 33%; }
+  text-align: center;
+  text-decoration: none;
+  color: #fff; }
+
+.home-bottom-vv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #fff;
+  border-radius: 2rem;
+  padding: 1rem 2rem; }
+.home-bottom-vv img {
+  max-width: 5rem;
+  padding-right: 1rem; }
+.home-bottom-vv div {
+  font-size: 1.3rem;
+  max-height: 100%;
+  font-family: "transport heavy"; }
+.home-bottom-vv div h1 {
+  margin-bottom: 0; }
 
 @media screen and (max-width: 600px) {
   .home h1 {
@@ -571,7 +595,27 @@ table td {
     color: #fff; }
   .home-bottom img {
     max-width: 75%;
-    padding: 0.2rem; } }
+    padding: 0.2rem; }
+
+  .home-bottom-vv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #fff;
+    border-radius: 2rem;
+    padding: .5rem 1rem; }
+  .home-bottom-vv img {
+    max-width: 3.5rem;
+    padding-right: .5rem; }
+  .home-bottom-vv div {
+    font-size: .6rem;
+    font-family: "transport heavy"; }
+  .home-bottom-vv div h1 {
+    margin-bottom: 0;
+    padding: 0; }
+  .home-bottom-vv div h4 {
+    font-size: 1rem; } }
 @font-face {
   font-family: "transport heavy";
   src: url("/assets/fonts/transporth.ttf") format("opentype");
