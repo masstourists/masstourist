@@ -1,0 +1,21 @@
+@font-face { font-family: "transport-heavy-700";
+             src: url("/assets/fonts/transport-new-heavy.ttf") format("opentype");
+             font-weight: 700;
+             font-style: normal; }
+@font-face { font-family: "transport-heavy-400";
+            src: url("/assets/fonts/transport-new-medium.ttf") format("opentype");
+            font-weight: 400;
+            font-style: normal; }
+@font-face { font-family: "transport-heavy-100";
+             src: url("/assets/fonts/transport-new-light.ttf") format("opentype");
+             font-weight: 100;
+             font-style: normal; }
+
+.transport-heavy-700 { font-family: transport-heavy-700;}
+.transport-heavy-400 { font-family: transport-heavy-400;}
+.transport-heavy-100 { font-family: transport-heavy-100;}
+
+.bg-vv-brown { background-color: #8f5545;}
+.bg-vv-blue { background-color: #00408b;}
+.vv-brown { color: #8f5545;}
+.vv-blue { color: #00408b;}

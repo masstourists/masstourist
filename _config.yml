@@ -1,16 +1,16 @@
 # Main Text
 author: 'mass tourists'
-name: 'mass tourists'
-aka: 'mass tourists'
-title: 'mass tourists - spread them all'
-subtitle: 'spread them all'
-payoff: 'spread them all'
-description: 'spread them all'
+name: 'veroVeneziano'
+aka: '- only cash -'
+title: '#veroVeneziano - only cash'
+subtitle: "the Venezia's best brand"
+payoff: "catch'em all"
+description: "the Venezia's best brand"
 locale: en_EN
 
 # Url
 baseurl: "" # the subpath of your site, e.g. /blog
-url: https://masstourists.com
+url: https://veroveneziano.com
 
 # Contact
 twitter: masstourists
@@ -31,7 +31,6 @@ facebook:
   publisher: 1647204168722946
   admins: 100027504092751
 
-
 # Favicon
 touch_icon: "https://masstourists.com/assets/img/logo/apple-touch-icon-144-precomposed.png"
 favicon: "https://masstourists.com/assets/img/logo/favicon.ico"
@@ -40,8 +39,10 @@ favicon: "https://masstourists.com/assets/img/logo/favicon.ico"
 markdown: kramdown
 highlighter: rouge
 
-#
+#Paginator
+#paginate: 3
 
+#Style
 sass:
   sass_dir: _sass
   style: compression
@@ -52,14 +53,21 @@ collections:
   services:
     output: true
 
-
-
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
 
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
 exclude:
-  - Gemfile
-  - Gemfile.lock
+   - Gemfile
+   - Gemfile.lock
+   - node_modules
+   - vendor/bundle/
+   - vendor/cache/
+   - vendor/gems/
+   - vendor/ruby/

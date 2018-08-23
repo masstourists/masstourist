@@ -1,24 +1,45 @@
 ---
-layout: home
-image: /assets/img/seo/masstourists-opg-facebook.png
+layout: default
 ---
 
-<section class="home">
-  <div class="home-top">
-    <h1>mass tourists</h1>
-    <h2>spread them all</h2>
-    <img class="logo-section-home" src="/assets/img/logo/masstourists_logo_bianca_scritta.svg" alt="logo masstourists">
+<header class="vh-100 bg-vv-blue dt w-100">
+
+  <div class="dtc v-mid cover ph3 ph4-m ph5-l">
+    <img src="/assets/img/veroveneziano/logo/veroVeneziano_logo.svg" alt="">
+    <h3 class="f2 f1-m f-headline-l measure-narrow lh-title mv0">
+      <span class="bg-white vv-brown lh-copy white pa1">
+        #veroVeneziano
+      </span>
+    </h3>
+    <h3 class="f2 f1-m measure-l measure-narrow lh-title mv0">
+      <span class="bg-white vv-brown lh-copy white pa1 i">
+        - only cash -
+      </span>
+    </h3>
   </div>
-  <div class="home-bottom">
-    <h5>brought to you with &#x2665; the new brand for Venezia</h5>
-    <a href="/veroveneziano">
-      <div class="home-bottom-vv">
-        <img src="/assets/img/logo/veroveneziano/veroVeneziano_logo_bianca.svg" alt="logo veroVeneziano">
-        <div class="">
-          <h1>veroVeneziano</h1>
-          <h4>- only cash -</h4>
-        </div>
+</header>
+
+
+<div class="mw9 center ph3-ns">
+  <div class="cf ph2-ns">
+    {%- for post in site.posts -%}
+    <div class="fl w-100 w-50-ns tc pa2">
+      <div class="bg-vv-brown pv4">
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <h3 class="">{{ post.date | date: date_format }}</h3>
+        <h2 class="">{{ post.title }}</h2>
+        <a class="f6 link dim br1 ba bw2 ph3 pv2 mb2 dib white" href="{{ post.url | relative_url }}">View card</a>
       </div>
-    </a>
+    </div>
+    {%- endfor -%}
   </div>
-</section>
+</div>
+
+<footer class="bg-vv-blue white-80 pv5 pv6-l ph4">
+  <p class="f6"><span class="dib mr4 mr5-ns">©2018 mass Tourists, Inc.</span>
+    <a class="link white-80 hover-light-purple" href="/terms">Terms</a> /
+    <a class="link white-80 hover-gold" href="/privacy"> Privacy </a> /
+    <a class="link white-80 hover-green" href="#">hi@masstourists.com </a>
+    <a class="link white-80 hover-green" href="{{ "/feed.xml" | relative_url }}">RSS</a>
+  </p>
+</footer>
