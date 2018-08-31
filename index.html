@@ -24,8 +24,8 @@ layout: default
     <div class="fl w-100 w-50-ns tc pa2">
       <div class="bg-vv-brown pv4">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <h3 class="">{{ post.date | date: date_format }}</h3>
-        <h2 class="">{{ post.title }}</h2>
+        <h3 class="f6 lh-copy">{{ post.date | date: date_format }}</h3>
+        <h2 class="f4 lh-copy">{{ post.title }}</h2>
         <a class="f6 link dim br1 ba bw2 ph3 pv2 mb2 dib white" href="{{ post.url | relative_url }}">View card</a>
       </div>
     </div>
