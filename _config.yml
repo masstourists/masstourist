@@ -35,8 +35,8 @@ facebook:
   admins: 100027504092751
 
 # Favicon
-touch_icon: "https://masstourists.com/assets/img/logo/apple-touch-icon-144-precomposed.png"
-favicon: "https://masstourists.com/assets/img/logo/favicon.ico"
+touch_icon: "/assets/img/veroveneziano/favicon/apple-touch-icon-144x144.png"
+favicon: "/assets/img//veroveneziano/favicon/favicon.ico"
 
 # Build settings
 markdown: kramdown
