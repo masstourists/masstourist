@@ -17,9 +17,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: https://veroveneziano.com
 
 # Contact
-twitter: masstourists
+
 github:
-facebook: masstourists
 email: turism4masses@gmail.com
 github_username:
 facebook_username: masstourists
