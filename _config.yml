@@ -1,5 +1,4 @@
 # Main Text
-author: 'mass tourists'
 name: 'veroVeneziano'
 aka: '- only cash -'
 title: '#veroVeneziano - only cash'
@@ -7,6 +6,11 @@ subtitle: "the Venezia's best brand"
 payoff: "catch'em all"
 description: "the Venezia's best brand"
 locale: en_EN
+
+author:
+  name: 'mass tourists'
+  twitter: 'masstourists'
+  facebook: 'https://www.facebook.com/masstourists'
 
 # Url
 baseurl: "" # the subpath of your site, e.g. /blog
