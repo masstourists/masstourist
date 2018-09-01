@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="/assets/style/tachyons.min.css">
   <link rel="stylesheet" href="/assets/style/vv_style.css">
   {%- feed_meta -%}
+  {% include favicon.html %}
 
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 </head>
