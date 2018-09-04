@@ -33,12 +33,6 @@ twitter:
   username: masstourists
   card: summary_large_image
 
-defaults:
-  - scope:
-      path: ""
-    values:
-      image: "/assets/img/graph_img_social_veroveneziano.png"
-
 facebook:
   app_id: 257678751707830
   publisher: 1647204168722946
