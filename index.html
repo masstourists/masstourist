@@ -22,7 +22,7 @@ layout: default
   <div class="cf ph2-ns">
     {%- for post in site.posts -%}
     <div class="fl w-100 w-50-ns tc pa2">
-      <div class="pv4 bg-vv-brown">
+      <div class="pv4 bg-vv-brown br4">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <h3 class="f6 lh-copy">{{ post.date | date_to_long_string }}</h3>
         <h2 class="f4 f5-ns lh-copy">{{ post.title }}</h2>
