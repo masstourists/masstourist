@@ -25,9 +25,9 @@ image: /assets/img/graph_img_social_veroveneziano.png
     <div class="fl w-100 w-50-ns tc pa2">
       <div class="pv4 bg-vv-brown br4">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <h3 class="f6 lh-copy">{{ post.date | date_to_long_string }}</h3>
-        <h2 class="f4 f5-ns lh-copy">{{ post.title }}</h2>
-        <a class="f6 link dim br1 ba bw2 ph3 pv2 mb2 dib white bg-vv-brown" href="{{ post.url | relative_url }}">View card</a>
+        <h3 class="f6 lh-copy fw1">{{ post.date | date_to_long_string }}</h3>
+        <h2 class="f5 f3-ns lh-copy">{{ post.title }}</h2>
+        <a class="f6 link dim br4 ba bw1 ph3 pv2 mb2 dib white bg-vv-brown" href="{{ post.url | relative_url }}">View card</a>
       </div>
     </div>
     {%- endfor -%}
