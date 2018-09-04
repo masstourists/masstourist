@@ -27,14 +27,24 @@ facebook_username: masstourists
 twitter_username: masstourists
 
 # SEO
+google_analytics: UA-125028857-1
+
 twitter:
   username: masstourists
   card: summary_large_image
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: "/assets/img/graph_img_social_veroveneziano.png"
 
 facebook:
   app_id: 257678751707830
   publisher: 1647204168722946
   admins: 100027504092751
+
+
 
 # Favicon
 touch_icon: "/assets/img/veroveneziano/favicon/apple-touch-icon-144x144.png"
