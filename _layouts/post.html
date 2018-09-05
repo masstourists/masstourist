@@ -45,22 +45,22 @@ layout: default
   </a>
 
   <div class="center pv5">
+    {% if page.previous.url %}
     <div class="cf">
       <div class="fl w-100 w-50-ns pa2">
         <div class="bg-vv-brown pa1 br3 ph3">
-          {% if page.previous.url %}
           <p class="f3-ns lh-copy">&laquo; <a class="link underline white hover-orange" href="{{ page.previous.url }}">{{page.previous.title}}</a></p>
-          {% endif %}
         </div>
       </div>
+      {% endif %}
+      {% if page.next.url %}
       <div class="fl w-100 w-50-ns pa2">
         <div class="bg-vv-brown pa1 br3 ph3">
-          {% if page.next.url %}
           <p class="f3-ns lh-copy tr"><a class="link underline white hover-orange" href="{{page.next.url}}">{{page.next.title}}</a> &raquo;</p>
-          {% endif %}
         </div>
       </div>
     </div>
+    {% endif %}
   </div>
 
 
