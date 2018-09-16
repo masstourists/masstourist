@@ -42,7 +42,7 @@ facebook:
 
 # Favicon
 touch_icon: "/assets/img/veroveneziano/favicon/apple-touch-icon-144x144.png"
-favicon: "/assets/img//veroveneziano/favicon/favicon.ico"
+favicon: "/assets/img/veroveneziano/favicon/favicon.ico"
 
 # Build settings
 markdown: kramdown
